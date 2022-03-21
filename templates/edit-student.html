@@ -1,0 +1,49 @@
+{{define "Edit-student"}}
+
+{{template "_head"}}
+
+{{template "_menu"}}
+
+<body>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-5">Edit student</h1>
+                <p class="lead">Enter the details</p>
+            </div>
+        </div>
+        <form method="POST" action="update-student">
+            <input type="hidden" name="ID" value="{{.ID}}">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" class="form-control" value="{{.Name}}">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <label for="cpf">CPF:</label>
+                        <input type="text" name="cpf" class="form-control" value="{{.CPF}}">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="form-group">
+                        <label for="rg">RG:</label>
+                        <input type="text" name="rg" class="form-control" value="{{.RG}}">
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-success">Update</button>
+            <a class="btn btn-info" href="./">Back</a>
+        </form>
+    </div>
+</body>
+
+</html>
+{{end}}
