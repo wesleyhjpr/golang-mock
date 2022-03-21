@@ -1,0 +1,214 @@
+{
+	"info": {
+		"_postman_id": "184be5e7-455b-449e-90a4-424fb8decd31",
+		"name": "golang-mock",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://sistemashomologacao.suafaculdade.com.br/pocdotnetcore/api/wes",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sistemashomologacao.suafaculdade.com.br/pocdotnetcore/api/wes",
+					"protocol": "https",
+					"host": [
+						"sistemashomologacao",
+						"suafaculdade",
+						"com",
+						"br"
+					],
+					"path": [
+						"pocdotnetcore",
+						"api",
+						"wes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://sistemashomologacao.suafaculdade.com.br/pocdotnetcore/api/students",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sistemashomologacao.suafaculdade.com.br/pocdotnetcore/api/students",
+					"protocol": "https",
+					"host": [
+						"sistemashomologacao",
+						"suafaculdade",
+						"com",
+						"br"
+					],
+					"path": [
+						"pocdotnetcore",
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://sistemashomologacao.suafaculdade.com.br/pocdotnetcore/api/students/1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sistemashomologacao.suafaculdade.com.br/pocdotnetcore/api/students/1",
+					"protocol": "https",
+					"host": [
+						"sistemashomologacao",
+						"suafaculdade",
+						"com",
+						"br"
+					],
+					"path": [
+						"pocdotnetcore",
+						"api",
+						"students",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://sistemashomologacao.suafaculdade.com.br/pocdotnetcore/api/students/cpf/12345678901",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sistemashomologacao.suafaculdade.com.br/pocdotnetcore/api/students/cpf/12345678901",
+					"protocol": "https",
+					"host": [
+						"sistemashomologacao",
+						"suafaculdade",
+						"com",
+						"br"
+					],
+					"path": [
+						"pocdotnetcore",
+						"api",
+						"students",
+						"cpf",
+						"12345678901"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://sistemashomologacao.suafaculdade.com.br/pocdotnetcore/api/students",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"Name\": \"Student test 2\", \r\n    \"CPF\": \"12345678901\", \r\n    \"RG\": \"123456789\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sistemashomologacao.suafaculdade.com.br/pocdotnetcore/api/students",
+					"protocol": "https",
+					"host": [
+						"sistemashomologacao",
+						"suafaculdade",
+						"com",
+						"br"
+					],
+					"path": [
+						"pocdotnetcore",
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://sistemashomologacao.suafaculdade.com.br/pocdotnetcore/api/students/1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"Name\": \"Student test edited\", \r\n    \"CPF\": \"12345678901\", \r\n    \"RG\": \"123456789\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sistemashomologacao.suafaculdade.com.br/pocdotnetcore/api/students/1",
+					"protocol": "https",
+					"host": [
+						"sistemashomologacao",
+						"suafaculdade",
+						"com",
+						"br"
+					],
+					"path": [
+						"pocdotnetcore",
+						"api",
+						"students",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://sistemashomologacao.suafaculdade.com.br/pocdotnetcore/api/students/1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://sistemashomologacao.suafaculdade.com.br/pocdotnetcore/api/students/1",
+					"protocol": "https",
+					"host": [
+						"sistemashomologacao",
+						"suafaculdade",
+						"com",
+						"br"
+					],
+					"path": [
+						"pocdotnetcore",
+						"api",
+						"students",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
